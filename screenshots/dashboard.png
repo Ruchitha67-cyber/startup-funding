@@ -1,1 +1,189 @@
+# 🛡️ Cyber Security Analytics Dashboard
+
+A comprehensive Cyber Security Analytics Dashboard built with Streamlit for analyzing cybersecurity datasets, generating visual insights, and exploring attack trends through interactive dashboards.
+
+---
+
+## 🚀 Features
+
+### 📊 Data Analytics
+
+* Automated ZIP file extraction
+* Data preprocessing and cleaning
+* Exploratory Data Analysis (EDA)
+* Statistical summaries
+
+### 📈 Interactive Visualizations
+
+* Distribution Analysis
+* Correlation Heatmaps
+* Attack Type Analysis
+* Threat Trend Monitoring
+* Category-wise Comparisons
+* Time-Series Security Insights
+
+### 🎯 Dashboard Components
+
+* KPI Cards
+* Interactive Charts
+* Filters and Search
+* Downloadable Reports
+* Real-Time Analytics Interface
+
+---
+
+## 📂 Project Structure
+
+```text
+cyber-security/
+│
+├── archive.zip
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   └── extracted_files/
+│
+├── visuals/
+│   ├── attack_distribution.png
+│   ├── correlation_heatmap.png
+│   └── threat_analysis.png
+│
+├── main/
+│   └── app.py
+│
+└── notebooks/
+    └── analysis.ipynb
+```
+
+---
+
+## 🛠️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/cyber-security.git
+cd cyber-security
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run Application
+
+```bash
+streamlit run main/app.py
+```
+
+Application will be available at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 📦 Required Libraries
+
+```text
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+```
+
+---
+
+## 📊 Dashboard Insights
+
+The dashboard provides:
+
+* Security Incident Trends
+* Attack Frequency Analysis
+* Threat Severity Distribution
+* Correlation Analysis
+* Vulnerability Assessment
+* Predictive Security Insights
+
+---
+
+## 🔧 Troubleshooting
+
+### ZIP File Not Found
+
+Ensure the repository structure is:
+
+```text
+cyber-security/
+│
+├── archive.zip
+└── main/
+    └── app.py
+```
+
+Use:
+
+```python
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+zip_path = os.path.join(BASE_DIR, "..", "archive.zip")
+```
+
+instead of hardcoded paths.
+
+---
+
+## 📈 Future Enhancements
+
+* Machine Learning Threat Prediction
+* AI-Based Risk Scoring
+* Real-Time Log Monitoring
+* Cloud Deployment
+* Automated Security Alerts
+* SOC Dashboard Integration
+
+---
+
+## 👩‍💻 Author
+
+Ruchitha DN
+
+Cyber Security Analytics Project built using Python, Streamlit, Pandas, Matplotlib, and Seaborn.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
 
