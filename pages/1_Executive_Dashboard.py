@@ -63,7 +63,7 @@ st.divider()
 
 metrics = get_metrics(filtered_df)
 
-show_kpis(metrics)
+display_kpis(metrics)
 
 st.divider()
 
