@@ -5,7 +5,7 @@ import pandas as pd
 from utils.data_loader import load_data
 from utils.metrics import get_metrics
 from components.kpi_cards import display_kpis
-from components.insights import show_insights
+from components.insights import generate_insights
 
 # --------------------------------------------------
 # Page Config
@@ -189,7 +189,7 @@ if "Year Founded" in filtered_df.columns:
 
 st.subheader("🧠 Executive Insights")
 
-show_insights(filtered_df)
+generate_insights(filtered_df)
 
 # --------------------------------------------------
 # Top Startups
