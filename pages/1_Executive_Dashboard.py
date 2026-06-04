@@ -4,7 +4,7 @@ import pandas as pd
 
 from utils.data_loader import load_data
 from utils.metrics import get_metrics
-from components.kpi_cards import show_kpis
+from components.kpi_cards import display_kpis
 from components.insights import show_insights
 
 # --------------------------------------------------
